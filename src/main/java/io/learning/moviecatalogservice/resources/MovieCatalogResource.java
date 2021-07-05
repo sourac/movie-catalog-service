@@ -18,6 +18,7 @@ public List<CatalogItem> getCatalogItem(@PathVariable("userId") String userId){
     return Collections.singletonList(
       new CatalogItem("Transformers","Test",4)
     );
+
   }
 
 }
